@@ -1,0 +1,18 @@
+static void Main(string[] args)
+         {
+             Console.WriteLine("Hello World");
++ 
++             Console.WriteLine("Let's Enter a word.");
++            
++            String word;
++
++           Console.WriteLine("Enter a Word: ");
++           word = String.Parse(Console.ReadLine());
++
++           
++
++
++          Console.WriteLine("The word is: " + word);
+         }
+     }
+ }
